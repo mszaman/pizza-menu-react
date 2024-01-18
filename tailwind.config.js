@@ -18,6 +18,10 @@ export default {
           2: "#252525",
         },
       },
+      screens: {
+        mobile: "600px",
+        tablet: "800px",
+      },
     },
   },
   plugins: [],
