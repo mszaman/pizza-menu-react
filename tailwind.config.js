@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -19,8 +19,7 @@ export default {
         },
       },
       screens: {
-        mobile: "600px",
-        tablet: "800px",
+        tablet: "750px",
       },
     },
   },

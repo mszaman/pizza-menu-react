@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gold-0 font-roboto text-grey-2;
+  @apply bg-gold-0 border-b-[16px] border-gold-1 font-roboto text-grey-2;
 }
