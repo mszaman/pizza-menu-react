@@ -4,8 +4,6 @@ export default function Footer() {
   const closeHour = 22;
   const isOpen = hours >= openHour && hours <= closeHour;
 
-  console.log(hours);
-
   return (
     <>
       <footer className="mb-32 mt-16 text-center">
