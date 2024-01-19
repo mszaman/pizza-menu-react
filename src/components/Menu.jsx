@@ -13,7 +13,10 @@ export default function Menu() {
         </p>
         <ul className="grid grid-cols-1 gap-16 tablet:grid-cols-2 tablet:gap-8">
           {pizzas.map((p) => (
-            <li className="mx-auto h-fit w-4/5 flex-row gap-5 text-center tablet:mx-0 tablet:flex tablet:w-full tablet:items-start">
+            <li
+              className="mx-auto h-fit w-4/5 flex-row gap-5 text-center tablet:mx-0 tablet:flex tablet:w-full tablet:items-start"
+              key={p.id}
+            >
               <img
                 className={`tablet:min-w-1/2 mx-auto mb-5 w-32 tablet:mx-0 tablet:mb-0 tablet:aspect-square tablet:min-h-full tablet:object-contain ${p.soldOut ? "grayscale" : ""}`}
                 src={p.photoName}
